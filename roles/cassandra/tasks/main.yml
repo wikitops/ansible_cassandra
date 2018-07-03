@@ -40,5 +40,6 @@
   with_items:
     - cassandra.yaml
     - cassandra-env.sh
+    - logback.xml
   notify: Restart Cassandra
   tags: update-cassandra-config
